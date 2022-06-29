@@ -1,0 +1,87 @@
+:root {
+  --font-base: "San Francisco", helvetica, arial, sans-serif;
+  --color-white: #fff;
+  --color-primary-light: #af8ebf;
+  --color-primary-base: #643c78;
+  --color-primary-dark: #3c1e46;
+  --color-primary-darker: #2b1432;
+  --color-secondary-bright: #c3eafc;
+  --color-secondary-light: #4fc5fb;
+  --color-secondary-base: #50bef0;
+  --color-secondary-dark: #3facdd;
+  --color-tertiary-base: #fa9676;
+  --color-tertiary-dark: #d96642;
+  --color-quaternary-base: #fae664;
+}
+
+.bg-neoskop {
+  background: linear-gradient(
+    160deg,
+    var(--color-primary-dark) 25%,
+    var(--color-primary-base)
+  );
+  color: var(--color-white);
+  text-shadow: 0 1px 0 #013;
+  font-family: var(--font-base);
+}
+
+.text-secondary {
+  color: var(--color-secondary-base);
+  font-style: normal;
+  font-family: var(--font-base);
+}
+
+.comment {
+  margin-left: 0.4em;
+  display: inline-block;
+  color: var(--color-primary-light);
+  font-style: normal;
+  font-family: var(--font-base);
+  font-size: 0.8em;
+}
+
+.code {
+  width: 100%;
+  display: flex;
+  color: var(--color-secondary-base);
+  font-style: normal;
+  font-family: var(--font-base);
+}
+
+.code__key {
+  flex: 0 0 auto;
+}
+
+.code__value {
+  display: inline-flex;
+  flex: 0 0 auto;
+  color: var(--color-white);
+  font-style: normal;
+  font-family: var(--font-base);
+}
+
+.code__function {
+  color: var(--color-quaternary-base);
+  font-style: normal;
+  font-family: var(--font-base);
+}
+
+.code__variable {
+  color: var(--color-tertiary-base);
+  font-style: normal;
+  font-family: var(--font-base);
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
