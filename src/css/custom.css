@@ -14,6 +14,24 @@
   --color-quaternary-base: #fae664;
 }
 
+#counter,
+#navigation a {
+  color: var(--color-primary-light);
+}
+
+#webslides:hover #navigation a:hover {
+  background-color: var(--color-primary-darker);
+}
+
+code {
+  align-items: center;
+  margin: 0 0.2em;
+  display: inline-flex;
+  line-height: 1;
+  height: 1em;
+  align-self: center;
+}
+
 .bg-neoskop {
   background: linear-gradient(
     160deg,
