@@ -32,6 +32,21 @@ code {
   align-self: center;
 }
 
+figure {
+  position: relative;
+}
+
+img {
+  display: block;
+}
+
+figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: var(--color-primary-dark);
+}
+
 .bg-neoskop {
   background: linear-gradient(
     160deg,
