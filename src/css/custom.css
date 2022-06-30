@@ -48,7 +48,11 @@ figcaption {
 }
 
 .bg-neoskop {
-  background: linear-gradient(160deg, var(--color-primary-dark) 25%, var(--color-primary-base));
+  background: linear-gradient(
+    160deg,
+    var(--color-primary-dark) 25%,
+    var(--color-primary-base)
+  );
   color: var(--color-white);
   text-shadow: 0 1px 0 #013;
   font-family: var(--font-base);
@@ -75,10 +79,7 @@ figcaption {
   color: var(--color-secondary-base);
   font-style: normal;
   font-family: var(--font-base);
-}
-
-.code__key {
-  flex: 0 0 auto;
+  gap: 10px;
 }
 
 .code__value {
